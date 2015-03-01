@@ -31,5 +31,7 @@ namespace ZestAPI.Models
         public bool AllowMailForAnswer { get; set; }
         [JsonProperty("last_visit")]
         public DateTime LastVisiteDate { get; set; }
+        [JsonProperty("date_joined")]
+        public DateTime JoinDate { get; set; }
     }
 }
